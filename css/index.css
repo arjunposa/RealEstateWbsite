@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+.home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/images/1170559.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    color: white;
+    width: 600px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column ;
+    gap:10px;
+    word-wrap: break-word;
+}
+.content h4 {
+    font-size: 2rem;
+    text-shadow: 2px 10px 5px black;
+}
+.content h2 {
+    font-size: 4.5rem;
+    text-shadow: 2px 20px 5px black;
+}
+.content button, .para button, .content3 button,
+.content4 button{
+    color: white;
+    font-size: 1.2rem;
+    width: 180px;
+    outline: none;
+    border: none;
+    background: none;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 30px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+.content button:hover {
+    background-color: rgba(0, 0, 0, 0.233);
+}
+.page1,.page2,.page3, .page4,
+.page5{
+    padding: 50px 0;
+    width: 100vw;
+    height: auto;
+    background-color: rgba(128, 128, 128, 0.342);
+}
+.content1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
+    
+}
+.content1 img {
+    width: 400px;
+    height: 600px;
+}
+.para {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+}
+.para button,.page3 .content3 button,
+.content4 button {
+    border: 2px solid black;
+    color: black;
+    transition: all .3s ease-in-out;
+}
+.para button:hover, .page3 .content3 button:hover,
+.content4 button:hover {
+    color: rgba(255, 255, 255, 0.411);
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.page2 {
+    background: white;
+}
+.page2 h2{
+    font-size: 2.2rem;
+    padding: 25px;
+    text-align: center;
+}
+.card-container {
+    padding: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.card {
+    position: relative;
+    width: 550px;
+    height: auto;
+    padding: 1px;
+    overflow: hidden;
+    cursor: pointer;
+    border:1px solid transparent;
+    transition: all .2s ease-in-out;
+}
+.card:hover {
+    border:1px solid gold;
+    border-radius: 0 50px 0 0;
+}
+.card img{
+    width: 100%;
+    border-radius: 0 50px 0 0;
+}
+.disc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 8px 0;
+    font-size: 1.5rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+  
+.card:hover .disc {
+    opacity: 1;
+}
+.content3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+.content3 .text, .content4 .text2{
+    width: 400px;
+    /* padding: 50px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content3 .text h2, .content4 .text2 h2 {
+    font-size: 2.2rem;
+}
+.content3 .text p, .content4 .text2 p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.content3 .img, .content4 .img2 {
+    width: 350px;
+    height: 450px;
+}
+.img img {
+    width: 100%;
+    height: 100%;
+}
+.page4 {
+    background-color: white;
+}
+.content4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+.content4 .img2 img {
+    width: 100%;
+    height: 100%;
+}
+.page5 {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.page5 .heading2{
+    font-size: 2.5rem;
+}
+.page5 .text3 {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.page5 .text3 div {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page5 .text3 div p   {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.page6 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:50px
+}
+.page6 h2 {
+    padding: 20px;
+    font-size: 3.8rem;
+}
+.page6 .container1 {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+}
+.container1 div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+}
+.container1 div p {
+    font-size: 1.5rem;
+}
+.container1 div h5 {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.footer {
+    width: 100vw;
+    height: 20vh;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+    
+}
+.container2 {
+    padding: 3px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.container2>div:nth-child(1) {
+    width: 300px;
+    font-size: 3rem;
+}
+.container2 div:nth-child(2) {
+    width: 200px;
+    font-size: 1.5rem;
+}
+.container2 div:nth-child(3) {
+    width: 230px;
+    font-size: 1.5rem;
+}
+  
